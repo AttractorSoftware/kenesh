@@ -1,0 +1,19 @@
+{% extends "::base.html.twig" %}
+
+{% block css %}
+    <link rel="stylesheet" href="{{ asset('components/bootstrap/dist/css/bootstrap.min.css') }}"/>
+{% endblock %}
+
+{% block body %}
+    <header></header>
+    <div class="container">
+        {% block container %}
+        {% endblock %}
+    </div>
+{% endblock %}
+
+{% block js %}
+    <script src="{{ asset('components/jquery/dist/jquery.min.js') }}"></script>
+    <script src="{{ asset('components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
+{% endblock %}
+

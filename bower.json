@@ -1,0 +1,19 @@
+{
+  "name": "kenesh",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ITAttractor/kenesh",
+  "authors": [
+    "Alex Shedrin <alex.shedrin.ne@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

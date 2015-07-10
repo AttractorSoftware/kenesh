@@ -1,0 +1,6 @@
+default:
+  autoload:
+    '': %paths.base%/../src/AppBundle/Features/Bootstrap
+  suites:
+    default:
+      contexts: [AppBundle\Features\Bootstrap\FeatureContext]
