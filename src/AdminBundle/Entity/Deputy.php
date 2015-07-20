@@ -27,6 +27,12 @@ class Deputy
      */
     private $fullName;
 
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="photo_url", type="string", nullable=true)
+     */
+    private $photoUrl;
 
     /**
      * @var string
@@ -274,5 +280,28 @@ class Deputy
     public function getVotes()
     {
         return $this->votes;
+    }
+
+    /**
+     * Set photoUrl
+     *
+     * @param string $photoUrl
+     * @return Deputy
+     */
+    public function setPhotoUrl($photoUrl)
+    {
+        $this->photoUrl = $photoUrl;
+
+        return $this;
+    }
+
+    /**
+     * Get photoUrl
+     *
+     * @return string 
+     */
+    public function getPhotoUrl()
+    {
+        return $this->photoUrl;
     }
 }
